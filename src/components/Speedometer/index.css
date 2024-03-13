@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.container {
+  background-color: #07080c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.main-heading {
+  color: #fff;
+  font-family: roboto;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 40px;
+}
+.image {
+  width: 90%;
+}
+.count {
+  color: #fff;
+  font-size: 25px;
+  font-family: roboto;
+  font-weight: 400;
+}
+.limits {
+  color: #cbd5e1;
+  font-size: 14px;
+}
+.button {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 14px;
+  width: 100px;
+  cursor: pointer;
+}
+.speed-btn {
+  background-color: #0b69ff;
+  color: #fff;
+}
+.speed-btn:hover{
+  background-color: red;
+}
+.break-btn {
+  background-color: #07080c;
+  border: #94a3b8 solid 2px;
+  color: #94a3b8;
+}
+.break-btn:hover{
+  background-color: green;
+  color: #fff;
+}
+.btn-con{
+  display: flex;
+}
+@media (min-width: 767px){
+  .main-heading{
+    font-size: 500%;
+  }
+  .image{
+    width: 90%;
+  }
+  .count{
+    font-size: 300%;
+  }
+  .limits{
+    font-size: 150%;
+  }
+  .button{
+    width: 150px;
+    height: 40px;
+  }
+}
